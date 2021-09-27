@@ -1,0 +1,128 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+header{
+width: 100%;
+position: relative;
+display: flex;
+justify-content: space-between;
+height: 50px;
+padding-top: 10px;
+border-bottom: 3px solid rgb(177, 99, 99);
+background: rgb(255, 158, 158);
+color: rgb(255, 200, 117);
+}
+header ul{
+position: relative;
+display: flex;
+}
+header ul li{
+list-style: none;
+}
+header ul li a{
+display: inline-block;
+text-decoration: none;
+position: relative;
+margin: 0px 15px;
+color: rgb(255, 0, 0);
+}
+.about, .home, .contact{
+width: 100%;
+min-height: 80vh;
+padding: 10px;
+text-align: center;
+display: table;
+
+border-bottom: 2px solid rgb(255, 154, 154);
+}
+section h2{
+letter-spacing: 3px;
+text-align: center;
+}
+.head{
+display: table-cell;
+vertical-align: middle;
+}
+.head h2{
+word-spacing: 2px;
+font-size: 32px;
+}
+.head h3{
+letter-spacing: 2px;;
+}
+.head button{
+height: 50px;
+width: 150px;
+padding: 2px;
+word-spacing: 2px;
+font-weight: bold;
+border: 2px solid rgb(255, 0, 0);
+border-radius: 20px;
+}
+.head button a{
+text-decoration: none;
+}
+.content{
+display: table-cell;
+vertical-align: middle;
+font-size: 32px;
+}
+.content b{
+letter-spacing: 3px;
+}
+.content i{
+letter-spacing: 3px;
+}
+.skill{
+width: 100%;
+min-height: 400px;
+padding: 15px;
+padding-top: 20px;
+background: linear-gradient(#05c6f7 , #ee1009);
+border-bottom: 2px solid rgb(255, 0, 0);
+}
+.skill .skills{
+padding-top: 90px;
+font-size: 32px;
+}
+.skill .skills div, .contact .info div{
+float: left;
+width: 32%;
+margin-top: 30px;
+margin-right: 2px;
+margin-left: 15px;
+margin-bottom: 10px;
+text-align: center;
+background: rgba(255, 0, 0, 0.2);
+}
+.contact .info{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.contact .info div{
+font-size: 32px;
+}
+table{
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+input, select, textarea{
+border: 2px solid rgb(255, 5, 5);
+}
+.btn{
+height: 40px;
+width: 80px;
+font-weight: bold;
+letter-spacing: 2px;
+border-radius: 10px;
+text-transform: uppercase;
+}
+.skill .skills div:hover, .contact .info div:hover{
+cursor: pointer;
+border: 2px solid rgb(195, 0, 255);
+}
